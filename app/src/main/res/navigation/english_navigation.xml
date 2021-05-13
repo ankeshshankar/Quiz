@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/english_navigation"
+    app:startDestination="@id/englishQuestionOne">
+
+    <fragment
+        android:id="@+id/englishQuestionOne"
+        android:name="com.example.quiz.english.EnglishQuestionOne"
+        android:label="fragment_english_question_one"
+        tools:layout="@layout/fragment_english_question_one" >
+        <action
+            android:id="@+id/action_englishQuestionOne_to_englishQuestionTwo"
+            app:destination="@id/englishQuestionTwo" />
+    </fragment>
+    <fragment
+        android:id="@+id/englishQuestionTwo"
+        android:name="com.example.quiz.english.EnglishQuestionTwo"
+        android:label="fragment_english_question_two"
+        tools:layout="@layout/fragment_english_question_two" >
+        <action
+            android:id="@+id/action_englishQuestionTwo_to_englishQuestionThree"
+            app:destination="@id/englishQuestionThree" />
+    </fragment>
+    <fragment
+        android:id="@+id/englishQuestionThree"
+        android:name="com.example.quiz.english.EnglishQuestionThree"
+        android:label="fragment_english_question_three"
+        tools:layout="@layout/fragment_english_question_three" >
+        <action
+            android:id="@+id/action_englishQuestionThree_to_englishQuestionFour"
+            app:destination="@id/englishQuestionFour" />
+    </fragment>
+    <fragment
+        android:id="@+id/englishQuestionFour"
+        android:name="com.example.quiz.english.EnglishQuestionFour"
+        android:label="fragment_english_question_four"
+        tools:layout="@layout/fragment_english_question_four" >
+        <action
+            android:id="@+id/action_englishQuestionFour_to_englishQuestionFive"
+            app:destination="@id/englishQuestionFive" />
+    </fragment>
+    <fragment
+        android:id="@+id/englishQuestionFive"
+        android:name="com.example.quiz.english.EnglishQuestionFive"
+        android:label="fragment_english_question_five"
+        tools:layout="@layout/fragment_english_question_five" />
+</navigation>

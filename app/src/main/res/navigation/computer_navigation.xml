@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/computer_navigation"
+    app:startDestination="@id/computerQuestionOne">
+
+    <fragment
+        android:id="@+id/computerQuestionOne"
+        android:name="com.example.quiz.computer.ComputerQuestionOne"
+        android:label="fragment_computer_question_one"
+        tools:layout="@layout/fragment_computer_question_one" >
+        <action
+            android:id="@+id/action_computerQuestionOne_to_computerQuestionTwo"
+            app:destination="@id/computerQuestionTwo" />
+    </fragment>
+    <fragment
+        android:id="@+id/computerQuestionTwo"
+        android:name="com.example.quiz.computer.ComputerQuestionTwo"
+        android:label="fragment_computer_question_two"
+        tools:layout="@layout/fragment_computer_question_two" >
+        <action
+            android:id="@+id/action_computerQuestionTwo_to_computerQuestionThree2"
+            app:destination="@id/computerQuestionThree" />
+    </fragment>
+    <fragment
+        android:id="@+id/computerQuestionThree"
+        android:name="com.example.quiz.computer.ComputerQuestionThree"
+        android:label="fragment_computer_question_three"
+        tools:layout="@layout/fragment_computer_question_three" >
+        <action
+            android:id="@+id/action_computerQuestionThree_to_computerQuestionFour"
+            app:destination="@id/computerQuestionFour" />
+    </fragment>
+    <fragment
+        android:id="@+id/computerQuestionFour"
+        android:name="com.example.quiz.computer.ComputerQuestionFour"
+        android:label="fragment_computer_question_four"
+        tools:layout="@layout/fragment_computer_question_four" >
+        <action
+            android:id="@+id/action_computerQuestionFour_to_computerQuestionFive"
+            app:destination="@id/computerQuestionFive" />
+    </fragment>
+    <fragment
+        android:id="@+id/computerQuestionFive"
+        android:name="com.example.quiz.computer.ComputerQuestionFive"
+        android:label="fragment_computer_question_five"
+        tools:layout="@layout/fragment_computer_question_five" />
+</navigation>

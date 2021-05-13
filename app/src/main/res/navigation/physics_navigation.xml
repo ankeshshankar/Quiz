@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/physics_navigation"
+    app:startDestination="@id/physicsQuestionOne">
+
+    <fragment
+        android:id="@+id/physicsQuestionOne"
+        android:name="com.example.quiz.physics.PhysicsQuestionOne"
+        android:label="fragment_physics_question_one"
+        tools:layout="@layout/fragment_physics_question_one" >
+        <action
+            android:id="@+id/action_physicsQuestionOne_to_physicsQuestionTwo"
+            app:destination="@id/physicsQuestionTwo" />
+    </fragment>
+    <fragment
+        android:id="@+id/physicsQuestionTwo"
+        android:name="com.example.quiz.physics.PhysicsQuestionTwo"
+        android:label="fragment_physics_question_two"
+        tools:layout="@layout/fragment_physics_question_two" >
+        <action
+            android:id="@+id/action_physicsQuestionTwo_to_physicsQuestionThree"
+            app:destination="@id/physicsQuestionThree" />
+    </fragment>
+    <fragment
+        android:id="@+id/physicsQuestionThree"
+        android:name="com.example.quiz.physics.PhysicsQuestionThree"
+        android:label="fragment_physics_question_three"
+        tools:layout="@layout/fragment_physics_question_three" >
+        <action
+            android:id="@+id/action_physicsQuestionThree_to_physicsQuestionFour"
+            app:destination="@id/physicsQuestionFour" />
+    </fragment>
+    <fragment
+        android:id="@+id/physicsQuestionFour"
+        android:name="com.example.quiz.physics.PhysicsQuestionFour"
+        android:label="fragment_physics_question_four"
+        tools:layout="@layout/fragment_physics_question_four" >
+        <action
+            android:id="@+id/action_physicsQuestionFour_to_physicsQuestionFive"
+            app:destination="@id/physicsQuestionFive" />
+    </fragment>
+    <fragment
+        android:id="@+id/physicsQuestionFive"
+        android:name="com.example.quiz.physics.PhysicsQuestionFive"
+        android:label="fragment_physics_question_five"
+        tools:layout="@layout/fragment_physics_question_five" />
+</navigation>
