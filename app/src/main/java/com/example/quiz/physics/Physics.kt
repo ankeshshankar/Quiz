@@ -1,7 +1,8 @@
-package com.example.quiz
+package com.example.quiz.physics
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+import com.example.quiz.R
 
 class Physics : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

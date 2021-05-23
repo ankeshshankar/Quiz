@@ -1,7 +1,8 @@
-package com.example.quiz
+package com.example.quiz.computer
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+import com.example.quiz.R
 
 class Computer : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

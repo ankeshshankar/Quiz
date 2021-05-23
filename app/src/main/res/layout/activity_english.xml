@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".English">
+    tools:context=".english.English">
+
     <fragment
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:navGraph="@navigation/english_navigation"/>
+        app:navGraph="@navigation/english_navigation" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

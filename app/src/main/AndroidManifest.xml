@@ -9,10 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Quiz">
-        <activity android:name=".Physics"></activity>
-        <activity android:name=".English" />
-        <activity android:name=".Computer" />
-        <activity android:name=".MathQuestion" />
+        <activity android:name=".physics.Physics"></activity>
+        <activity android:name=".english.English" />
+        <activity android:name=".computer.Computer" />
+        <activity android:name=".math.MathQuestion" />
         <activity android:name=".SubjectSelection" />
         <activity android:name=".MainActivity">
             <intent-filter>

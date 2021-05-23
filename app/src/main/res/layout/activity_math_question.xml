@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MathQuestion">
+    tools:context=".math.MathQuestion">
+
     <fragment
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:navGraph="@navigation/math_navigation"/>
+        app:navGraph="@navigation/math_navigation" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

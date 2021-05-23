@@ -1,7 +1,6 @@
 <resources>
     <string name="app_name">Quiz</string>
     <string name="enter_name">enter name</string>
-    <string name="enter_name">enter name</string>
     <string name="quiz_registration">Quiz Registration</string>
     <string name="enter_email">enter email</string>
     <string name="enter_mobile">enter mobile</string>
@@ -27,7 +26,6 @@
     <string name="which_is_smallest">Which is smallest</string>
     <string name="_4">4</string>
     <string name="combine_terms_12a_26b_4b_16a">Combine terms: 12a+26b-4b-16a</string>
-    <string name="_4a_22b">4a+22b</string>
     <string name="_4a_22b">4a+22b</string>
     <string name="_28a_30b">-28a+30b</string>
     <string name="_6a_9b">6a+9b</string>
