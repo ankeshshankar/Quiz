@@ -1,6 +1,7 @@
 package com.example.quiz.Database
 
 import android.view.ViewGroup
+import com.google.android.material.radiobutton.MaterialRadioButton
 import com.google.android.material.textfield.TextInputEditText
 
 class RuntimeData {
@@ -17,12 +18,23 @@ class RuntimeData {
                     getInputEditText(layout.getChildAt(i) as ViewGroup)
                 } else {
                     if (layout.getChildAt(i) is TextInputEditText) {
-                        val tf = layout.getChildAt(i) as TextInputEditText
-                        textInputEditTextArray.add(tf)
+                        textInputEditTextArray.add(layout.getChildAt(i) as TextInputEditText)
                     }
                 }
             }
+        }
 
+        var radioButtonArray = arrayListOf<MaterialRadioButton>()
+        fun getRadioButton(layout: ViewGroup) {
+            for (i in 0 until layout.childCount) {
+                if (layout.getChildAt(i) is ViewGroup) {
+                    getRadioButton(layout.getChildAt(i) as ViewGroup)
+                } else {
+                    if (layout.getChildAt(i) is MaterialRadioButton) {
+                        radioButtonArray.add(layout.getChildAt(i) as MaterialRadioButton)
+                    }
+                }
+            }
         }
 
 
