@@ -2,7 +2,6 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/math_navigation"
     app:startDestination="@id/mathQuestionOne">
 
     <fragment
@@ -14,6 +13,7 @@
             android:id="@+id/action_mathQuestionOne_to_questionTwo"
             app:destination="@id/questionTwo" />
     </fragment>
+
     <fragment
         android:id="@+id/questionTwo"
         android:name="com.example.quiz.math.QuestionTwo"

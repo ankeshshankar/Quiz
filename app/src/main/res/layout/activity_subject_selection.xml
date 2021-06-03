@@ -16,28 +16,24 @@
         <com.google.android.material.radiobutton.MaterialRadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/math"
             android:text="@string/math"
             android:textSize="20sp" />
 
         <com.google.android.material.radiobutton.MaterialRadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/computer"
             android:text="@string/computer"
             android:textSize="20sp"/>
 
         <com.google.android.material.radiobutton.MaterialRadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/english"
             android:text="@string/english"
             android:textSize="20sp"/>
 
         <com.google.android.material.radiobutton.MaterialRadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/physics"
             android:text="@string/physics"
             android:textSize="20sp" />
 

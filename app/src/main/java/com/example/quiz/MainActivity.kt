@@ -37,7 +37,8 @@ class MainActivity : AppCompatActivity() {
                 RuntimeData.userMobileNumber = userMobile.text.toString()
                 startActivity(Intent(this, SubjectSelection::class.java))
             }
-
         }
+        //Setting Data
+        RuntimeData.hashMath["even number"] = "2"
     }
 }

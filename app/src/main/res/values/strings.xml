@@ -3,17 +3,14 @@
     <string name="enter_name">enter name</string>
     <string name="quiz_registration">Quiz Registration</string>
     <string name="enter_email">enter email</string>
-    <string name="enter_mobile">enter mobile</string>
     <string name="enter_mobileNo">enter mobileNo</string>
     <string name="submit">SUBMIT</string>
-    <string name="select_subject">select subject</string>
     <string name="math">math</string>
     <string name="computer">computer</string>
     <string name="english">english</string>
     <string name="physics">physics</string>
     <string name="start">Start</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="which_one_is_even_number">Which one is even number?</string>
     <string name="_2">2</string>
     <string name="_7">7</string>

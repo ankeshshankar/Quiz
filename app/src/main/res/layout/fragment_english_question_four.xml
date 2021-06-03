@@ -21,7 +21,6 @@
         android:textColor="@color/black" />
 
     <RadioGroup
-        android:id="@+id/EnglishQuestion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
@@ -31,7 +30,6 @@
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/optionOne"
             android:layout_margin="10dp"
             android:text="@string/enjoyed_ourself"
             android:textSize="30sp"
@@ -40,7 +38,6 @@
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/optionTwo"
             android:layout_margin="10dp"
             android:text="@string/enjoyed_ourselves"
             android:textSize="30sp"
@@ -49,7 +46,6 @@
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/optionThree"
             android:layout_margin="10dp"
             android:text="@string/played_with"
             android:textSize="30sp"
@@ -58,7 +54,6 @@
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/optionFour"
             android:layout_margin="10dp"
             android:text="@string/none_of_these"
             android:textSize="30sp"

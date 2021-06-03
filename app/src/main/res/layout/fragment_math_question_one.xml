@@ -19,7 +19,6 @@
 
 
     <RadioGroup
-        android:id="@+id/question"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
@@ -29,7 +28,6 @@
     <RadioButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/optionOne"
         android:layout_margin="10dp"
         android:text="@string/_2"
         android:textSize="30sp"
@@ -38,7 +36,6 @@
     <RadioButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/optionTwo"
         android:layout_margin="10dp"
         android:textSize="30sp"
         android:text="@string/_7"
@@ -47,7 +44,6 @@
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/optionThree"
             android:layout_margin="10dp"
             android:text="@string/_3"
             android:textSize="30sp"
@@ -56,7 +52,6 @@
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/optionFour"
             android:layout_margin="10dp"
             android:text="@string/_5"
             android:textSize="30sp"

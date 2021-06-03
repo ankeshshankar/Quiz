@@ -21,7 +21,11 @@ class SubjectSelection : AppCompatActivity() {
         setContentView(R.layout.activity_subject_selection)
         val welcomeTest = findViewById<TextView>(R.id.welcomeUser)
         welcomeTest.text =
-            "Welcome " + RuntimeData.userName.capitalize(Locale.ROOT) + " Please Select Subject"
+            "Welcome " + RuntimeData.userName.replaceFirstChar {
+                if (it.isLowerCase()) it.titlecase(
+                    Locale.ROOT
+                ) else it.toString()
+            } + " Please Select Subject"
 
         val radioGroup = findViewById<RadioGroup>(R.id.radioGroupSubject)
         val submitButton = findViewById<Button>(R.id.button)
@@ -30,18 +34,23 @@ class SubjectSelection : AppCompatActivity() {
             RuntimeData.getRadioButton(radioGroup)
             for (currentRadioButton in RuntimeData.radioButtonArray) {
                 if (currentRadioButton.isChecked) {
-                    when (currentRadioButton.text.toString().toLowerCase(Locale.ROOT)) {
+                    when (currentRadioButton.text.toString().lowercase(Locale.ROOT)) {
                         "math" -> {
                             startActivity(Intent(this, MathQuestion::class.java))
+                            break
                         }
                         "computer" -> {
                             startActivity(Intent(this, Computer::class.java))
+                            break
                         }
                         "english" -> {
                             startActivity(Intent(this, English::class.java))
+                            break
                         }
                         "physics" -> {
                             startActivity(Intent(this, Physics::class.java))
+                            break
+
                         }
                     }
                 }

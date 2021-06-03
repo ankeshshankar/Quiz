@@ -47,5 +47,21 @@ class RuntimeData {
                 .isBlank()
         }
 
+        // Question Answers
+        val hashMath: HashMap<String, String> = hashMapOf()
+        val hashComp: HashMap<String, String> = hashMapOf()
+        val hashPhy: HashMap<String, String> = hashMapOf()
+        val hashEng: HashMap<String, String> = hashMapOf()
     }
+
+
+
+
+
+
+
+
+
+
+
 }
