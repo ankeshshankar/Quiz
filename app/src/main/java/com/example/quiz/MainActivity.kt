@@ -14,7 +14,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val userName = findViewById<TextInputEditText>(R.id.nameEditText)
-
         val userEmail = findViewById<TextInputEditText>(R.id.emailEditText)
         val userMobile = findViewById<TextInputEditText>(R.id.mobileEditText)
         val submitBtn = findViewById<Button>(R.id.button)
